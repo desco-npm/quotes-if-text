@@ -1,21 +1,25 @@
-# format-size-file
+# @desco/quotes-if-text
 
-> A Vue.js project
+> Add quotation marks when value is a text
 
-## Build Setup
+## Install
 
 ``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+npm install --save @desco/quotes-if-text
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Use
+
+``` js
+import QuotesIfText from '@desco/quotes-if-text'
+
+// Or in NodeJS
+const QuotesIfText = require('@desco/quotes-if-text')
+
+console.log(QuotesIfText(1)) // 1
+console.log(QuotesIfText('9')) // 9
+console.log(QuotesIfText('Helow')) // "Helow"
+console.log(QuotesIfText('World', "'")) // 'World'
+console.log(QuotesIfText('Your', '`')) // `Your`
+console.log(QuotesIfText('Beautiful', '"')) // "Beautiful"
+```
