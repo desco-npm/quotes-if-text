@@ -1,6 +1,6 @@
 {
     "name": "@desco/quotes-if-text",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Add quotation marks when value is a text",
     "author": "Rafael A. R. Dias <contato@diasrafael.com.br>",
     "repository": {
