@@ -1,6 +1,6 @@
 <div align="right">
-  <a href="README.US.md">
-    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=🇺🇸 Read in American English&color=red&style=for-the-badge" />
+  <a href="README.md">
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -9,48 +9,48 @@
     <td><img src="https://i.ibb.co/37mWfPS/quotes-if-text.png"></td>
     <td>  
       <h1>@desco/quotes-if-text</h1>
-      Pacote que permite adiciona aspas ao valor de uma variável somente se ela contiver uma String.
+      Package that allows you to add quotes to the value of a variable only if it contains a String.
       <br /><br />
       <div align="center">
-        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=green&style=for-the-badge">
-        <img alt="Versão 1.0.5" src="https://img.shields.io/static/v1?label=Versão&message=1.0.5&color=blue&style=for-the-badge">
+        <img alt="MIT License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge">
+        <img alt="Version 1.0.5" src="https://img.shields.io/static/v1?label=Version&message=1.0.5&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
-        🚀 Pronto para uso! 🚀
+        🚀 Ready to use! 🚀
       </h4>
     </td>
   </tr>
 </table>
 
-> <a href="https://github.com/desco-npm" target="_blank">Veja outros projetos NPM aqui.</a>
+> <a href="https://github.com/desco-npm" target="_blank">See other NPM projects here.</a>
 
-> <a href="https://github.com/descoifica" target="_blank">Veja outros projetos aqui.</a>
-
----
-
-## 📋 Tabela de conteúdos
-
-* [⚙️ Instalação](#Instalação)
-* [📦 Importação](#Importação)
-* [📚 Como Usar](#Como-Usar)
+> <a href="https://github.com/descoifica" target="_blank">See other projects here.</a>
 
 ---
 
-<a name="Instalação"></a>
+## 📋 Table of Contents
 
-## ⚙️ Instalação
+* [⚙️ Installation](#Installation)
+* [📦 Import](#Import)
+* [📚 How to use](#How-to-use)
+
+---
+
+<a name="Installation"></a>
+
+## ⚙️ Installation
 
 ```bash
 npm install --save @desco/quotes-if-text
 ```
 
-> Note que será necessário ter o **NPM** instalado para o comando funcionar.
+> Note that it will be necessary to have **NPM** installed for the command to work.
 
 ---
 
-<a name="Importação"></a>
+<a name="Import"></a>
 
-## 📦 Importação
+## 📦 Import
 
 ### Node
 
@@ -66,9 +66,9 @@ import quotesIfText from '@desco/quotes-if-text'
 
 ---
 
-<a name="Como-Usar"></a>
+<a name="How-To-Use"></a>
 
-## 📚 Como Usar
+## 📚 How to use
 
 ```js
 console.log(quotesIfText(1)) // 1
@@ -83,12 +83,12 @@ console.log(quotesIfText('Beautiful', '"')) // "Beautiful"
 
 | Nome | Tipo | Padrão | Descrição |
 |---|---|---|---
-| data | Any | - | Valor a ser colocado aspas, caso seja uma string |
-| quote | String | " | Carácter a ser usado como aspas |
+| data | Any | - | Value to be placed in quotation marks, if it is a string |
+| quote | String | "| Character to be used as quotation marks |
 
 ---
 
-## Autor
+## Author
 
 <table>
   <tr>

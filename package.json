@@ -1,11 +1,11 @@
 {
     "name": "@desco/quotes-if-text",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Add quotation marks when value is a text",
-    "author": "Rafael A. R. Dias <contato@diasrafael.com.br>",
+    "author": "Rafael A. R. Dias <eu@diasrafael.com.br>",
     "repository": {
         "type": "git",
-        "url": "git+https://eudiasrafael@bitbucket.org/eudiasrafael/desco-quotes-if-text.git"
+        "url": "git+https://github.com/desco-npm/quotes-if-text"
     },
     "private": false,
     "license": "ISC"
