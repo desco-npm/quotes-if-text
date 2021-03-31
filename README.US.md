@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.md">
-    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=Ler+em+Portugu%C3%AAs+do+Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -30,9 +30,9 @@
 
 ## 📋 Table of Contents
 
-* [⚙️ Installation](#Installation)
-* [📦 Import](#Import)
-* [📚 How to use](#How-to-use)
+- [⚙️ Installation](#Installation)
+- [📦 Import](#Import)
+- [📚 How to use](#How-to-use)
 
 ---
 
@@ -55,13 +55,13 @@ npm install --save @desco/quotes-if-text
 ### Node
 
 ```js
-const quotesIfText = require('@desco/quotes-if-text')
+const quotesIfText = require("@desco/quotes-if-text");
 ```
 
 ### Browse
 
 ```js
-import quotesIfText from '@desco/quotes-if-text'
+import quotesIfText from "@desco/quotes-if-text";
 ```
 
 ---
@@ -71,20 +71,20 @@ import quotesIfText from '@desco/quotes-if-text'
 ## 📚 How to use
 
 ```js
-console.log(quotesIfText(1)) // 1
-console.log(quotesIfText('9')) // 9
-console.log(quotesIfText('Helow')) // "Helow"
-console.log(quotesIfText('World', "'")) // 'World'
-console.log(quotesIfText('Your', '`')) // `Your`
-console.log(quotesIfText('Beautiful', '"')) // "Beautiful"
+console.log(quotesIfText(1)); // 1
+console.log(quotesIfText("9")); // 9
+console.log(quotesIfText("Helow")); // "Helow"
+console.log(quotesIfText("World", "'")); // 'World'
+console.log(quotesIfText("Your", "`")); // `Your`
+console.log(quotesIfText("Beautiful", '"')); // "Beautiful"
 ```
 
 ### Parâmetros
 
-| Nome | Tipo | Padrão | Descrição |
-|---|---|---|---
-| data | Any | - | Value to be placed in quotation marks, if it is a string |
-| quote | String | "| Character to be used as quotation marks |
+| Nome  | Tipo   | Padrão | Descrição                                                |
+| ----- | ------ | ------ | -------------------------------------------------------- |
+| data  | Any    | -      | Value to be placed in quotation marks, if it is a string |
+| quote | String | "      | Character to be used as quotation marks                  |
 
 ---
 
@@ -107,10 +107,10 @@ console.log(quotesIfText('Beautiful', '"')) // "Beautiful"
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">
